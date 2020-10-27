@@ -1,6 +1,6 @@
 {
   "name": "easyjsutil",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "easyjsutil",
   "main": "index.js",
   "scripts": {
