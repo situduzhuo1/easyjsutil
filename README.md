@@ -1,5 +1,4 @@
-# easyjsutil
-# Commons
+# 说明
 ``` js
 {
   default: {
@@ -15,3 +14,5 @@
   }
 }
 ```
+# git仓库
+# 测试

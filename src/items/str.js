@@ -56,5 +56,5 @@ function splitByLength(str,length) {
   }
   return info.result;
 }
-
-export default { Compare,getLengthCN,getCharCodeLength,splitByLength };
+//export const Str = ;
+export default {Compare,getLengthCN,splitByLength,getCharCodeLength};

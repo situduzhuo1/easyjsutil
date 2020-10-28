@@ -13,5 +13,5 @@ function Encode(url) { // URL转义为字符串
 function Decode(encodeurl) {
   return decodeURIComponent(encodeurl);
 }
-
-export default { Encode,Decode };
+const URL ={ Encode,Decode };
+export default URL;
