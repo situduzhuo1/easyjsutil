@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/items/vaild.js"],"names":[],"mappings":";;;;;AAAA;;;kBAGe,E","file":"vaild.js","sourcesContent":["/**\r\n * 校验方法集\r\n */\r\nexport default {};"]}

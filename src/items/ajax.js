@@ -1,4 +1,4 @@
 /**
- * 集合类型方法集
+ * AJAX请求方法集
  */
 export default {};

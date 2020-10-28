@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/items/ajax.js"],"names":[],"mappings":";;;;;AAAA;;;kBAGe,E","file":"ajax.js","sourcesContent":["/**\r\n * AJAX请求方法集\r\n */\r\nexport default {};"]}
