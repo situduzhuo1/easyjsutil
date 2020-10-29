@@ -26,6 +26,9 @@
   strGetLengthCN: [Function: getLengthCN],//获取字符串的字节长度
   strSplitByLength: [Function: splitByLength],//根据字节长度切割成字符串数组
   strGetCharCodeLength: [Function: getCharCodeLength]//获取字节代码长度,输入：字节代码
+  urlEncode: [Function: Decode],
+  urlDeCode: [Function: Decode],
+  commonNewGuid: [Function: NewGuid]
 }
 ```
 # git仓库 : https://github.com/situduzhuo1/easyjsutil.git
