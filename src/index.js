@@ -1,6 +1,6 @@
 import Str from './items/str';
 import URL from './items/url';
-import Common from './items/common';
+import Base from './items/base';
 import Arr from './items/arry';
 import AJAX from './items/ajax';
 import Vaild from './items/vaild';
@@ -8,7 +8,7 @@ import Vaild from './items/vaild';
 const obj= {
   Str,
   URL,
-  Common,
+  Base,
   Arr,
   AJAX,
   Vaild,
@@ -21,6 +21,6 @@ const obj= {
   urlEncode:URL.Decode,
   urlDeCode:URL.Decode,
   //公共函数
-  commonNewGuid:Common.NewGuid
+  commonNewGuid:Base.NewGuid
 };
 export default obj;

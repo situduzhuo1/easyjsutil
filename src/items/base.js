@@ -1,5 +1,6 @@
 /**
  * 公共方法集
+ * 原则：严谨内部任何引用
  */
 export function NewGuid() {
   function S4() {
