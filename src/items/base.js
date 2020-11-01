@@ -8,6 +8,20 @@ export function NewGuid() {
   }
   return (S4() + S4() + '-' + S4() + '-' + S4() + '-' + S4() + '-' + S4() + S4() + S4());
 }
+/**
+ * 参数必填检查
+ * @param {参数名称} param 
+ * @param {检查类别} type 
+ */
+export const IsRequired = function(param,type='error'){ 
+  const msg = param+' is required';
+  if(type==='error'){
+    throw new Error(msg); 
+  }else{
+    console.log(msg);
+  }
+};
+
 export default {
-  NewGuid
+  NewGuid,IsRequired
 };
