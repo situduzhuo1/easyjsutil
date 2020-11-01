@@ -15,7 +15,7 @@ console.info('解码前：',encodeurl);
 console.info('解码后：',obj1.URL.Decode(encodeurl));
 console.info('------------------------测试方法------------------------');
 
-const hello = function(name = obj1.Base.IsRequired('name','warn')){ 
+const hello = function(name = obj1.IsRequired('name','warn')){ 
   console.log('hello '+name+''); 
 };
 // This will throw an error because no name is provided
