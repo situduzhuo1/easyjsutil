@@ -4,6 +4,8 @@ import Base from './items/base';
 import Arr from './items/arry';
 import AJAX from './items/ajax';
 import Vaild from './items/vaild';
+import Number from './items/number';
+import number from './items/number';
 
 const obj= {
   Str,
@@ -12,6 +14,7 @@ const obj= {
   Arr,
   AJAX,
   Vaild,
+  Number,
   //字符串处理
   strCompare:Str.Compare,
   strGetLengthCN:Str.getLengthCN,
@@ -21,6 +24,8 @@ const obj= {
   urlEncode:URL.Decode,
   urlDeCode:URL.Decode,
   //公共函数
-  commonNewGuid:Base.NewGuid
+  commonNewGuid:Base.NewGuid,
+  //数字处理
+  numberFormatMoney:number.FormatMoney
 };
 export default obj;

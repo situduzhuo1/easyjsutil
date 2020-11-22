@@ -13,3 +13,5 @@ console.info('编码后：',obj1.URL.Encode(url));
 const encodeurl = 'https%3A%2F%2Fwww.baidu.com%2F%3Fa%3D123%26b%3D456%26opentime%3D202010271001590012';
 console.info('解码前：',encodeurl);
 console.info('解码后：',obj1.URL.Decode(encodeurl));
+console.info('------------------------数字格式程序集测试------------------------');
+console.info(obj1.numberFormatMoney(12345.6789, 4, "")); // £ 12,345.6789
