@@ -15,3 +15,5 @@ console.info('解码前：',encodeurl);
 console.info('解码后：',obj1.URL.Decode(encodeurl));
 console.info('------------------------数字格式程序集测试------------------------');
 console.info(obj1.numberFormatMoney(12345.6789, 4, "")); // £ 12,345.6789
+console.info('------------------------数字转大写------------------------');
+console.info(obj1.numberFormatCurrency(12345.67)); // £ 12,345.6789

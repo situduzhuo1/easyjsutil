@@ -26,6 +26,7 @@ const obj= {
   //公共函数
   commonNewGuid:Base.NewGuid,
   //数字处理
-  numberFormatMoney:number.FormatMoney
+  numberFormatMoney:number.FormatMoney,
+  numberFormatCurrency:number.convertCurrency
 };
 export default obj;
