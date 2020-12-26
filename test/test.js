@@ -17,3 +17,6 @@ console.info('------------------------数字格式程序集测试---------------
 console.info(obj1.numberFormatMoney(12345.6789, 4, "")); // £ 12,345.6789
 console.info('------------------------数字转大写------------------------');
 console.info(obj1.numberFormatCurrency(12345.67)); // £ 12,345.6789
+console.info('------------------------API地址加密解密方法------------------------');
+console.info(obj1.encodeAPI('http://drives.abb.com.cn/'));
+console.info(obj1.decodeAPI('aHR0cDovL2RyaXZlcy5hYmIuY29tLmNuLw=='));

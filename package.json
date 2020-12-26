@@ -4,7 +4,7 @@
   "description": "easyjsutil",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js",
+    "test": "node ./test/test.js",
     "esw": "esw src/* -w",
     "babel": "babel src -d lib -s"
   },
@@ -19,5 +19,7 @@
     "eslint": "^7.12.0",
     "eslint-watch": "^7.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "js-base64": "^3.6.0"
+  }
 }
