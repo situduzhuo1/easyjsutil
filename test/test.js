@@ -20,3 +20,15 @@ console.info(obj1.numberFormatCurrency(12345.67)); // £ 12,345.6789
 console.info('------------------------API地址加密解密方法------------------------');
 console.info(obj1.encodeAPI('http://drives.abb.com.cn/'));
 console.info(obj1.decodeAPI('aHR0cDovL2RyaXZlcy5hYmIuY29tLmNuLw=='));
+console.info(
+  obj1.encodeAPI('https://drives.abb.com.cn/OMSServices/')
+);
+console.info(
+  obj1.encodeAPI('https://drives.abb.com.cn/OMSServices/File/PartnerSOFillUpload/')
+);
+console.info(
+  obj1.decodeAPI('aHR0cHM6Ly9kcml2ZXMuYWJiLmNvbS5jbi9PTVNTZXJ2aWNlcy8=')
+);
+console.info(
+  obj1.decodeAPI('aHR0cHM6Ly9kcml2ZXMuYWJiLmNvbS5jbi9PTVNTZXJ2aWNlcy9GaWxlL1BhcnRuZXJTT0ZpbGxVcGxvYWQv')
+);

@@ -18,7 +18,16 @@ const obj= {
   encrypt,
   //字符串处理
   strCompare:Str.Compare,
+  /**
+   * 获取字符串长度,中文算2个字符
+   * @param {String} str - 字符串
+   */
   strGetLengthCN:Str.getLengthCN,
+  /**
+   * 字符串按长度截取为数组
+   * @param {String} str - 字符串
+   * @param {Number} length - 截取长度
+   */
   strSplitByLength:Str.splitByLength,
   strGetCharCodeLength:Str.getCharCodeLength,
   //URL处理
@@ -28,6 +37,10 @@ const obj= {
   commonNewGuid:Base.NewGuid,
   //数字处理
   numberFormatMoney:number.FormatMoney,
+  /**
+   * 数字转大写
+   * @param {Number} money - 数字,一般用户钱数转大写
+   */
   numberFormatCurrency:number.convertCurrency,
   /**
    * API地址加密
